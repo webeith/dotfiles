@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+#other
+alias :q="exit"
+alias :wq="exit"
+alias j='jobs -l'
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
@@ -9,10 +14,7 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
-alias dt="cd ~/Desktop"
-alias p="cd ~/projects"
 
 # GIT
 alias g="git"
@@ -85,3 +87,6 @@ alias hh='history | grep -i'
 
 # docker up with build
 alias dockup="docker-compose up -d --build"
+
+
+
