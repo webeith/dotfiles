@@ -1,0 +1,28 @@
+set surround
+set hls
+set is
+#set rnu
+
+# git
+map \ga :action Annotate<CR>
+map \gr :action ChangesView.Revert<CR>
+
+# edit
+map \em :action ExtractMethod<CR>
+map \in :action Inline<CR>
+map \if :action IntroduceField<CR>
+map \ic :action IntroduceConstant<CR>
+map \cs :action ChangeSignature<CR>
+map \rn :action RenameElement<CR>
+map \gg :action Generate<CR>
+map \insc :action InspectCode<CR>
+map \rip :action ReplaceInPath<CR>
+map \fip :action FindInPath<CR>
+map \rc :action ReformatCode<CR>
+
+# navigate
+map \ch :action CallHierarchy<CR>
+map \ss :action Symfony2Symbols<CR>
+map \gcl :action GotoClass<CR>
+map \gf :action GotoFile<CR>
+map \gs :action GotoSymbol<CR>
