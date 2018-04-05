@@ -1,13 +1,15 @@
 set surround
 set hls
 set is
-#set rnu
+set nu
+set rnu
 
 # git
 map \ga :action Annotate<CR>
 map \gr :action ChangesView.Revert<CR>
 
 # edit
+map <C-q> :action CommentByLineComment<CR>
 map \em :action ExtractMethod<CR>
 map \in :action Inline<CR>
 map \if :action IntroduceField<CR>
@@ -26,3 +28,5 @@ map \ss :action Symfony2Symbols<CR>
 map \gcl :action GotoClass<CR>
 map \gf :action GotoFile<CR>
 map \gs :action GotoSymbol<CR>
+map { :action MethodUp<CR>
+map } :action MethodDown<CR>
